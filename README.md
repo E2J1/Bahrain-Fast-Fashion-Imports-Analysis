@@ -22,8 +22,6 @@ A market intelligence and business intelligence project analyzing Bahrain’s fa
 
 ---
 
----
-
 ## Dashboard Preview
 
 ![Dashboard Overview](images/dashboard-overview.png)
