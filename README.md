@@ -119,31 +119,29 @@ This helps ensure inventory arrives before peak seasonal demand periods and redu
 
 ---
 
-# Recommendations
+# Strategic Recommendations
 
-## Product Strategy
-Focus initial inventory on:
+![Strategic Recommendations](images/recommendations.png)
+
+### Product Strategy
+Focus on:
 - T-shirts
 - Trousers & Shorts
 - Dresses
 
-These categories consistently dominated Bahrain’s import market.
+These categories consistently dominated Bahrain’s import market and represented the strongest commercial opportunity.
 
----
-
-## Sourcing Strategy
+### Sourcing Strategy
 - Source core inventory from India and Bangladesh
-- Use China for high-variety trend-driven products
-- Avoid premium sourcing markets during early-stage expansion
+- Use China for high-variety trend-driven inventory
+- Delay premium sourcing markets until brand positioning matures
 
----
-
-## Inventory Timing
-Align purchasing cycles with:
+### Inventory Timing
+Align purchasing cycles around:
 - Q1 demand peaks
 - December seasonal demand
 
-Use historical import trends for inventory forecasting.
+This helps optimize stock availability and reduce inventory shortages during high-demand periods.
 
 ---
 
