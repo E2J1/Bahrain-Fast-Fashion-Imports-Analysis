@@ -1,4 +1,3 @@
-````md id="qk02q9"
 # Bahrain Fast Fashion Imports Analysis (2021–2025)
 
 A market intelligence and business intelligence project analyzing Bahrain’s fast fashion import trends to support a data-driven market entry strategy for a new apparel retailer.
@@ -182,52 +181,3 @@ Use historical import trends for inventory forecasting.
 ├── dashboard/
 │   └── Bahrain_Fast_Fashion.pbix
 └── README.md
-````
-
----
-
-# Notebooks
-
-| File                          | Description                                        |
-| ----------------------------- | -------------------------------------------------- |
-| `bahrain_imports_clean.ipynb` | Cleans and consolidates multi-year import datasets |
-| `fast_fashion_filter.ipynb`   | Filters apparel-related HS code categories         |
-
----
-
-# Dashboard Features
-
-* Interactive seasonal filtering
-* Dynamic KPI cards
-* Clothing category heatmaps
-* Supplier country analysis
-* Monthly trend analysis
-* Cost-per-unit calculations
-* Comparative growth metrics
-
----
-
-# Data Source
-
-Bahrain Open Data Portal
-
-https://www.data.gov.bh/explore/?disjunctive.theme&sort=modified&q=imports
-
----
-
-# Project Context
-
-General Assembly Data Analytics Bootcamp — Capstone Project
-Gulf Vision Consulting · 2026
-
----
-
-# Author
-
-**Ebrahim Alsawan**
-
-* LinkedIn: linkedin.com/in/Ebrahim-Alsawan
-* GitHub: github.com/YOUR_USERNAME
-
-```
-```
