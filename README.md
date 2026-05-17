@@ -1,6 +1,43 @@
-# Bahrain Fast Fashion Imports Analysis (2021–2025)
+# Bahrain Fast Fashion Market Intelligence Report (2021–2025)
 
 A market intelligence and business intelligence project analyzing Bahrain’s fast fashion import trends to support a data-driven market entry strategy for a new apparel retailer.
+
+---
+
+# Consultancy Scenario
+
+This project was developed as part of a simulated consulting engagement for a fictional GCC market intelligence firm, **Gulf Vision Consulting**.
+
+The client, **ROVE**, is a proposed fast fashion retailer planning to enter Bahrain’s apparel market.
+
+The objective was to provide a fully data-driven market entry strategy using Bahrain’s official import data between 2021–2025.
+
+The analysis focused on:
+- Demand trends
+- Supplier sourcing
+- Seasonal inventory planning
+- Import costs
+- Trade logistics
+- Market opportunities
+
+The final deliverable combined Python-based data preparation with an interactive Power BI executive dashboard.
+
+---
+
+# Data Source
+
+The dataset was obtained from the Bahrain Open Data Portal and contains official Bahrain import records between 2021 and 2025.
+
+### Source
+https://www.data.gov.bh/explore/?disjunctive.theme&sort=modified&q=imports
+
+### Dataset Coverage
+- Import transactions
+- Commodity classifications (HS Codes)
+- Supplier countries
+- Import values
+- Import quantities and weights
+- Monthly import activity
 
 ---
 
@@ -22,17 +59,17 @@ A market intelligence and business intelligence project analyzing Bahrain’s fa
 
 ---
 
-## Dashboard Preview
+# Executive Dashboard Preview
 
-![Dashboard Overview](images/dashboard-overview.png)
+![Executive Dashboard](images/dashboard-overview.png)
 
 ---
 
-## Interactive Dashboard Demo
+# Interactive Dashboard Demo
 
 ![Dashboard Demo](images/dashboard-demo.gif)
 
-> Interactive Power BI dashboard featuring seasonal filters, sourcing analysis, KPI tracking, and clothing category insights.
+> Interactive Power BI dashboard featuring seasonal filters, sourcing analysis, KPI tracking, heatmaps, and clothing category insights.
 
 ---
 
@@ -45,21 +82,44 @@ This project analyzes five years of Bahrain’s apparel import data to uncover:
 - Seasonal purchasing patterns
 - Supplier country performance
 - Cost-efficient sourcing opportunities
+- Trade and logistics considerations
 
-The goal was to transform raw trade data into actionable business insights for a fast fashion brand entering the Bahraini market.
+The goal was to transform raw trade data into actionable business intelligence for a fast fashion brand entering the Bahraini market.
+
+---
+
+# Client Persona
+
+### Client Type
+A new fast fashion retailer planning to enter the Bahraini apparel market.
+
+### Business Goals
+- Identify high-demand apparel categories
+- Source inventory from cost-efficient supplier countries
+- Understand seasonal demand behavior
+- Build a competitive pricing strategy
+- Reduce inventory and sourcing risks
+
+### Target Market
+- Young adults and trend-focused consumers
+- Mid-range affordable fashion segment
+- Seasonal and fast-moving apparel products
 
 ---
 
 # Business Problem
 
-A new fast fashion retailer lacked visibility into:
+ROVE, a new fast fashion retailer entering Bahrain, lacked visibility into:
 
-- Which clothing categories dominate Bahrain’s import market
-- Which countries provide the most cost-efficient sourcing
-- When seasonal demand peaks occur
-- Which product categories offer the highest commercial opportunity
+- Which apparel categories dominate Bahrain’s import market
+- Which sourcing countries provide the best cost efficiency
+- Which months experience peak seasonal demand
+- Which product categories present the strongest commercial opportunity
+- How import trends evolved between 2021–2025
 
-This analysis provides a data-backed framework for inventory planning, sourcing strategy, and market positioning.
+Without data-driven visibility, inventory planning, sourcing strategy, and pricing decisions carried significant commercial risk.
+
+This project transformed raw Bahrain import data into strategic business intelligence to support a confident market entry strategy.
 
 ---
 
@@ -71,6 +131,7 @@ This analysis provides a data-backed framework for inventory planning, sourcing 
 - How has Bahrain’s apparel market grown between 2021–2025?
 - Which months and seasons experience peak demand?
 - Which categories present premium market opportunities?
+- Which sourcing markets provide the best balance between cost and lead time?
 
 ---
 
@@ -83,6 +144,7 @@ This analysis provides a data-backed framework for inventory planning, sourcing 
 - Bahrain’s apparel import value increased by approximately **41%** between 2021 and 2025
 - Total import value peaked at **BD 87M** in 2024
 - Growth remained consistent across multiple years, signaling sustained market demand
+- Total import quantity exceeded **107M units** across the analysis period
 
 ---
 
@@ -137,6 +199,26 @@ This helps ensure inventory arrives before peak seasonal demand periods and redu
 
 ---
 
+# Logistics & Import Operations Analysis
+
+Beyond market trends, the project also analyzed Bahrain’s apparel import process and operational considerations.
+
+## Areas Covered
+- Customs procedures
+- Import duties and VAT
+- Sea vs air freight tradeoffs
+- Supplier lead times
+- Port clearance process
+- Shipment planning strategies
+
+## Key Findings
+- India and Bangladesh provided the strongest balance between low cost and short lead times
+- Sea freight was the most cost-effective option for bulk inventory imports
+- Air freight was best suited for urgent trend-reactive replenishment
+- Bahrain’s apparel imports are typically subject to customs duties and VAT charges
+
+---
+
 # Strategic Recommendations
 
 ![Strategic Recommendations](images/recommendations.png)
@@ -163,6 +245,69 @@ This helps optimize stock availability and reduce inventory shortages during hig
 
 ---
 
+# Data Preparation Workflow
+
+Python was used to prepare and standardize the raw Bahrain import datasets before loading into Power BI.
+
+## Data Preparation Tasks
+- Combined 2021–2025 import datasets
+- Cleaned commodity descriptions
+- Removed newline characters
+- Standardized HS commodity codes
+- Fixed inconsistent country naming
+- Created calculated business metrics
+- Built seasonal classifications
+- Derived clothing categories from commodity descriptions
+
+---
+
+# Dashboard Features
+
+The Power BI dashboard includes:
+- Dynamic seasonal filtering
+- Interactive sourcing analysis
+- KPI cards
+- Commodity heatmaps
+- Import trend analysis
+- Supplier benchmarking
+- Fabric composition analysis
+- Growth tracking measures
+- Conditional formatting indicators
+
+---
+
+# Power BI Development
+
+The dashboard includes:
+- Custom DAX KPI measures
+- Conditional formatting logic
+- Seasonal trend calculations
+- Dynamic filtering
+- Business-focused data modeling
+
+---
+
+# Limitations
+
+- The dataset only includes import activity and does not include local retail sales performance.
+- Import data reflects wholesale and landed costs rather than consumer pricing.
+- Some commodity descriptions were generalized, limiting product-level precision.
+- Visual apparel style classifications were unavailable.
+- Gender demand segmentation could not be validated using consumer sales data.
+- Inflation, logistics disruptions, and macroeconomic variables were not included.
+
+---
+
+# Future Improvements
+
+- Integrate retail sales and customer behavior data
+- Include forecasting models for seasonal demand
+- Add supplier risk analysis and logistics KPIs
+- Incorporate product image classification models
+- Develop automated Power BI refresh pipelines
+
+---
+
 # Tech Stack
 
 ## Data Analysis
@@ -177,6 +322,7 @@ This helps optimize stock availability and reduce inventory shortages during hig
 - Data Transformation
 - KPI Development
 - Trend Analysis
+- DAX Measures
 
 ---
 
@@ -190,10 +336,13 @@ This helps optimize stock availability and reduce inventory shortages during hig
 │   ├── dashboard-demo.gif
 │   ├── market-growth.png
 │   ├── commodity-analysis.png
-│   └── country-analysis.png
+│   ├── country-analysis.png
+│   ├── recommendations.png
+│   └── dax-measures.png
 ├── notebooks/
 │   ├── bahrain_imports_clean.ipynb
 │   └── fast_fashion_filter.ipynb
 ├── dashboard/
 │   └── Bahrain_Fast_Fashion.pbix
 └── README.md
+```
