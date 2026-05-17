@@ -4,6 +4,26 @@ A market intelligence and business intelligence project analyzing Bahrain’s fa
 
 ---
 
+# Data Dictionary
+
+| Column Name | Description |
+| --- | --- |
+| `year` | Year of the import record. |
+| `month` | Month when the import transaction was recorded. |
+| `commodity_no` | Commodity classification code used to identify the apparel product type. |
+| `commodity` | Description of the imported clothing item. |
+| `un_code` | Country code of the exporting/supplier country. |
+| `country_name` | Name of the country exporting the apparel products to Bahrain. |
+| `import_value_bd` | Import value measured in Bahraini Dinar (BD). |
+| `import_value_usa` | Import value converted to US Dollars (USD). |
+| `import_weight_kg` | Total imported weight measured in kilograms. |
+| `import_quantity` | Number of imported units/items. |
+| `um` | Unit of measurement used for the imported quantity, such as number of items (`NO`). |
+
+---
+
+---
+
 ## Dashboard Preview
 
 ![Dashboard Overview](images/dashboard-overview.png)
