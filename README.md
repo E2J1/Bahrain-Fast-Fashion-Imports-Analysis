@@ -1,51 +1,233 @@
+````md id="qk02q9"
 # Bahrain Fast Fashion Imports Analysis (2021–2025)
 
-A market intelligence project analyzing Bahrain’s clothing import trends to support data-driven entry strategy for a fast fashion retailer.
+A market intelligence and business intelligence project analyzing Bahrain’s fast fashion import trends to support a data-driven market entry strategy for a new apparel retailer.
 
-## Overview
-This project explores 5 years of Bahrain’s import data to identify:
+---
+
+## Dashboard Preview
+
+![Dashboard Overview](images/dashboard-overview.png)
+
+---
+
+## Interactive Dashboard Demo
+
+![Dashboard Demo](images/dashboard-demo.gif)
+
+> Interactive Power BI dashboard featuring seasonal filters, sourcing analysis, KPI tracking, and clothing category insights.
+
+---
+
+# Project Overview
+
+This project analyzes five years of Bahrain’s apparel import data to uncover:
+
 - Market growth trends
-- High-demand product categories
-- Cost-efficient sourcing countries
-- Seasonal demand patterns
+- High-demand clothing categories
+- Seasonal purchasing patterns
+- Supplier country performance
+- Cost-efficient sourcing opportunities
 
-The goal is to translate raw trade data into actionable insights for business expansion decisions.
+The goal was to transform raw trade data into actionable business insights for a fast fashion brand entering the Bahraini market.
 
-## Data Source
-Bahrain Open Data Portal  
+---
+
+# Business Problem
+
+A new fast fashion retailer lacked visibility into:
+
+- Which clothing categories dominate Bahrain’s import market
+- Which countries provide the most cost-efficient sourcing
+- When seasonal demand peaks occur
+- Which product categories offer the highest commercial opportunity
+
+This analysis provides a data-backed framework for inventory planning, sourcing strategy, and market positioning.
+
+---
+
+# Business Questions Answered
+
+- Which apparel categories generate the highest import value?
+- Which products dominate import volume?
+- Which supplier countries provide the lowest average cost per item?
+- How has Bahrain’s apparel market grown between 2021–2025?
+- Which months and seasons experience peak demand?
+- Which categories present premium market opportunities?
+
+---
+
+# Key Insights
+
+## Market Growth Analysis
+
+![Market Growth](images/market-growth.png)
+
+- Bahrain’s apparel import value increased by approximately **41%** between 2021 and 2025
+- Total import value peaked at **BD 87M** in 2024
+- Growth remained consistent across multiple years, signaling sustained market demand
+
+---
+
+## Commodity Analysis
+
+![Commodity Analysis](images/commodity-analysis.png)
+
+### Highest Import Value Categories
+- Trousers & Shorts — BD 96M
+- Dresses — BD 74M
+- T-shirts — BD 65M
+
+### Key Findings
+- T-shirts dominated import volume but operated on thinner margins
+- Dresses showed strong premium positioning potential
+- Trousers & Shorts represented the largest commercial opportunity
+
+---
+
+## Supplier Country Analysis
+
+![Country Analysis](images/country-analysis.png)
+
+### Key Findings
+- China dominated total import value
+- India and Bangladesh offered the lowest average cost per item (~BD 2)
+- Italy operated as a premium-priced supplier market
+
+### Business Implication
+India and Bangladesh provide the strongest balance between:
+- Low sourcing cost
+- Shorter lead times
+- High apparel manufacturing volume
+
+---
+
+## Seasonal Demand Insights
+
+### Key Findings
+- Demand peaks occurred during:
+  - January–March
+  - December
+- Seasonal patterns remained relatively consistent across multiple years
+- Winter and Summer represented the strongest inventory periods
+
+### Business Implications
+Retailers should align supplier ordering cycles during:
+- October
+- November
+
+This helps ensure inventory arrives before peak seasonal demand periods and reduces the risk of stock shortages.
+
+---
+
+# Recommendations
+
+## Product Strategy
+Focus initial inventory on:
+- T-shirts
+- Trousers & Shorts
+- Dresses
+
+These categories consistently dominated Bahrain’s import market.
+
+---
+
+## Sourcing Strategy
+- Source core inventory from India and Bangladesh
+- Use China for high-variety trend-driven products
+- Avoid premium sourcing markets during early-stage expansion
+
+---
+
+## Inventory Timing
+Align purchasing cycles with:
+- Q1 demand peaks
+- December seasonal demand
+
+Use historical import trends for inventory forecasting.
+
+---
+
+# Tech Stack
+
+## Data Analysis
+- Python
+- Pandas
+
+## Data Visualization
+- Power BI
+
+## Data Processing
+- Data Cleaning
+- Data Transformation
+- KPI Development
+- Trend Analysis
+
+---
+
+# Repository Structure
+
+```bash
+.
+├── data/
+├── images/
+│   ├── dashboard-overview.png
+│   ├── dashboard-demo.gif
+│   ├── market-growth.png
+│   ├── commodity-analysis.png
+│   └── country-analysis.png
+├── notebooks/
+│   ├── bahrain_imports_clean.ipynb
+│   └── fast_fashion_filter.ipynb
+├── dashboard/
+│   └── Bahrain_Fast_Fashion.pbix
+└── README.md
+````
+
+---
+
+# Notebooks
+
+| File                          | Description                                        |
+| ----------------------------- | -------------------------------------------------- |
+| `bahrain_imports_clean.ipynb` | Cleans and consolidates multi-year import datasets |
+| `fast_fashion_filter.ipynb`   | Filters apparel-related HS code categories         |
+
+---
+
+# Dashboard Features
+
+* Interactive seasonal filtering
+* Dynamic KPI cards
+* Clothing category heatmaps
+* Supplier country analysis
+* Monthly trend analysis
+* Cost-per-unit calculations
+* Comparative growth metrics
+
+---
+
+# Data Source
+
+Bahrain Open Data Portal
+
 https://www.data.gov.bh/explore/?disjunctive.theme&sort=modified&q=imports
 
-## Tech Stack
-- **Python** (Pandas) — data cleaning, transformation, filtering  
-- **Power BI** — data modeling, visualization, and dashboard development  
+---
 
-## Notebooks
+# Project Context
 
-| File | Description |
-|------|------------|
-| `bahrain_imports_clean.ipynb` | Consolidates and cleans multi-year raw import datasets |
-| `fast_fashion_filter.ipynb` | Filters HS Code Chapters 61 & 62 (apparel categories) |
-
-## Key Insights
-
-- **Market Growth:** Import value increased ~41% from 2021 to 2025, peaking at BD 87M in 2024  
-- **Top Categories:**  
-  - Trousers & Shorts — BD 96M  
-  - Dresses — BD 74M  
-  - T-shirts — BD 65M  
-
-- **Cost Optimization:**  
-  India and Bangladesh offer the lowest average cost per item (~BD 2), indicating strong sourcing opportunities  
-
-- **Seasonality:**  
-  Demand peaks in **Q1 (Jan–Mar)** and **December**, suggesting inventory planning opportunities  
-
-## Business Implications
-
-- High-growth market with sustained demand across key apparel categories  
-- Clear opportunity for low-cost sourcing strategy  
-- Seasonal demand patterns can optimize inventory and marketing cycles  
-
-## Project Context
-General Assembly Data Analytics Bootcamp — Capstone Project  
+General Assembly Data Analytics Bootcamp — Capstone Project
 Gulf Vision Consulting · 2026
+
+---
+
+# Author
+
+**Ebrahim Alsawan**
+
+* LinkedIn: linkedin.com/in/Ebrahim-Alsawan
+* GitHub: github.com/YOUR_USERNAME
+
+```
+```
