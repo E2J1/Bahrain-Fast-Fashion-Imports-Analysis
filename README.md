@@ -1,10 +1,10 @@
-# Bahrain Fast Fashion Market Intelligence Report (2021–2025)
+# 🛍️ Bahrain Fast Fashion Market Intelligence Report (2021–2025)
 
 A market intelligence and business intelligence project analyzing Bahrain's fast fashion import trends to support a data-driven market entry strategy for a new apparel retailer.
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 
 This project was developed as part of a simulated consulting engagement for a fictional GCC market intelligence firm, **Gulf Vision Consulting**.
 
@@ -16,7 +16,7 @@ The final deliverable combined Python-based data preparation with an interactive
 
 ---
 
-## Business Problem & Client
+## 🎯 Business Problem & Client
 
 ### Business Problem
 
@@ -50,7 +50,7 @@ This project transformed raw Bahrain import data into strategic business intelli
 
 ---
 
-## Business Questions
+## ❓ Business Questions
 
 - Which apparel categories generate the highest import value?
 - Which products dominate import volume?
@@ -62,7 +62,7 @@ This project transformed raw Bahrain import data into strategic business intelli
 
 ---
 
-## Data Source
+## 🗄️ Data Source
 
 The dataset was obtained from the Bahrain Open Data Portal and contains official Bahrain import records between 2021 and 2025.
 
@@ -76,7 +76,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 - Import quantities and weights
 - Monthly import activity
 
-### Data Dictionary
+### 📋 Data Dictionary
 
 | Column Name | Type | Description |
 |-------------|------|-------------|
@@ -94,9 +94,9 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 ---
 
-## Tech Stack & Methodology
+## 🛠️ Tech Stack & Methodology
 
-### Data Preparation (Python)
+### 🐍 Data Preparation (Python)
 - Combined 2021–2025 import datasets
 - Cleaned commodity descriptions and removed newline characters
 - Standardized HS commodity codes and country naming
@@ -106,7 +106,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 **Libraries:** Python, Pandas
 
-### Dashboard Development (Power BI)
+### 📊 Dashboard Development (Power BI)
 - Custom DAX KPI measures
 - Conditional formatting logic
 - Seasonal trend calculations
@@ -116,7 +116,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 ---
 
-## Executive Dashboard Preview
+## 📺 Executive Dashboard Preview
 
 ![Executive Dashboard](images/dashboard-overview.png)
 
@@ -126,9 +126,9 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 ---
 
-## Key Insights
+## 💡 Key Insights
 
-### Market Growth
+### 📈 Market Growth
 
 ![Market Growth](images/market-growth.png)
 
@@ -137,7 +137,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 - Growth remained consistent across multiple years, signaling sustained market demand
 - Total import quantity exceeded **107M units** across the analysis period
 
-### Commodity Analysis
+### 👗 Commodity Analysis
 
 ![Commodity Analysis](images/commodity-analysis.png)
 
@@ -151,7 +151,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 - Dresses showed strong premium positioning potential
 - Trousers & Shorts represented the largest commercial opportunity
 
-### Supplier Country Analysis
+### 🌍 Supplier Country Analysis
 
 ![Country Analysis](images/country-analysis.png)
 
@@ -160,13 +160,13 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 - Italy operated as a premium-priced supplier market
 - India and Bangladesh provide the strongest balance between low sourcing cost, shorter lead times, and high manufacturing volume
 
-### Seasonal Demand
+### 📅 Seasonal Demand
 
 - Demand peaks occurred during January–March and December
 - Seasonal patterns remained consistent across multiple years
 - Retailers should align supplier ordering cycles during October–November to ensure inventory arrives before peak demand periods
 
-### Logistics & Import Operations
+### 🚢 Logistics & Import Operations
 
 - Sea freight was the most cost-effective option for bulk inventory imports
 - Air freight was best suited for urgent trend-reactive replenishment
@@ -174,22 +174,22 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 ---
 
-## Strategic Recommendations
+## ✅ Strategic Recommendations
 
 ![Strategic Recommendations](images/recommendations.png)
 
-**Product Strategy:** Focus on T-shirts, Trousers & Shorts, and Dresses — the categories that consistently dominated Bahrain's import market.
+**📦 Product Strategy:** Focus on T-shirts, Trousers & Shorts, and Dresses — the categories that consistently dominated Bahrain's import market.
 
-**Sourcing Strategy:**
+**🌐 Sourcing Strategy:**
 - Source core inventory from India and Bangladesh for lowest cost per unit
 - Use China for high-variety trend-driven inventory
 - Delay premium sourcing markets until brand positioning matures
 
-**Inventory Timing:** Align purchasing cycles around Q1 and December demand peaks to optimize stock availability and reduce shortages during high-demand periods.
+**🗓️ Inventory Timing:** Align purchasing cycles around Q1 and December demand peaks to optimize stock availability and reduce shortages during high-demand periods.
 
 ---
 
-## Limitations
+## ⚠️ Limitations
 
 - The dataset only includes import activity and does not include local retail sales performance
 - Import data reflects wholesale and landed costs rather than consumer pricing
@@ -200,7 +200,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Integrate retail sales and customer behavior data
 - Include forecasting models for seasonal demand
@@ -210,7 +210,7 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```bash
 .
@@ -231,15 +231,14 @@ The dataset was obtained from the Bahrain Open Data Portal and contains official
 └── README.md
 ```
 
-
 ---
 
-## Author
+## 👤 Author
 
 **Ebrahim Alsawan**
 
 Data Analyst | Business Intelligence Analyst
 
-LinkedIn: https://www.linkedin.com/in/ebrahim-alsawan-a6977a2b9/
+🔗 LinkedIn: https://www.linkedin.com/in/ebrahim-alsawan-a6977a2b9/
 
-GitHub: https://github.com/E2J1
+🐙 GitHub: https://github.com/E2J1
